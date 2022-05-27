@@ -4,9 +4,7 @@ import './Footer.scss'
 const Footer = () => (
   <div className='footer'>
     <div>
-      <a>
-        This is a footer!
-      </a>
+      <p>This is a footer!</p>
     </div>
   </div>
 )
