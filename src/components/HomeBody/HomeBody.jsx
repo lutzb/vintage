@@ -1,6 +1,5 @@
 import React from 'react';
 import './HomeBody.scss'
-import ProBeachHockey from '../../img/pro-beach-hockey.gif'
 
 const HomeBody = () => (
   <div className="home-header">
