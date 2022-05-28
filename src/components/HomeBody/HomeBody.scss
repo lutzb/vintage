@@ -2,7 +2,21 @@
   min-height: 50vh;
   align-items: left;
   justify-content: left;
+  display: flex;
   font-size: calc(10px + 2vmin);
   color: black;
   background-color: white;
+}
+
+.video {
+  margin-top: 10vh;
+}
+
+.left-images {
+  display: inline;
+  height: 12vh;
+  width: 12vh;
+  margin-left: 5vh;
+  margin-right: 10vh;
+  margin-bottom: 5vh;
 }
