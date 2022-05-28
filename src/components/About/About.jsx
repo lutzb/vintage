@@ -1,11 +1,14 @@
 import React from 'react';
+import HomeHeader from '../HomeHeader/HomeHeader';
 import './About.scss';
 
 function About() {
   return (
     <div className="about">
-        <header className="about-header">
-        <p>About - Coming soon!</p>
+      <HomeHeader />
+      <header className="about-
+       header">
+      <p>About the teams</p>
       </header>
     </div>
   );
