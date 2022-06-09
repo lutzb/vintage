@@ -1,23 +1,20 @@
 import React from 'react';
 import './HomeBody.scss'
 
-import Vintage1 from '../../img/vintage-1.jpg'
-import Vintage2 from '../../img/vintage-2.jpg'
-import Vintage3 from '../../img/vintage-3.jpg'
-import Vintage4 from '../../img/vintage-4.png'
-import Vintage5 from '../../img/vintage-5.jpg'
-import Vintage6 from '../../img/vintage-6.jpg'
-import Vintage7 from '../../img/vintage-7.jpg'
-import Vintage8 from '../../img/vintage-8.jpg'
+import Team1 from '../../img/team1.jpg'
+import Team2 from '../../img/team2.jpg'
+import Team3 from '../../img/team3.jpg'
+import Team4 from '../../img/team4.jpg'
+import Team5 from '../../img/team5.jpg'
+import Team6 from '../../img/team6.jpg'
 
 const HomeBody = () => (
   <div className="home-body">
     {/* Show left column images */}
     <div className="left-images">
-      <img src={Vintage1} className="left-image" alt=''/>
-      <img src={Vintage2} className="left-image" alt=''/>
-      <img src={Vintage3} className="left-image" alt=''/>
-      <img src={Vintage4} className="left-image" alt=''/>
+      <img src={Team1} className="left-image" alt=''/>
+      <img src={Team2} className="left-image" alt=''/>
+      <img src={Team3} className="left-image" alt=''/>
     </div>
 
     {/* Show video */}
@@ -27,10 +24,9 @@ const HomeBody = () => (
 
     {/* Show right column images */}
     <div className="right-images">
-      <img src={Vintage5} className="right-image" alt=''/>
-      <img src={Vintage6} className="right-image" alt=''/>
-      <img src={Vintage7} className="right-image" alt=''/>
-      <img src={Vintage8} className="right-image" alt=''/>
+      <img src={Team4} className="right-image" alt=''/>
+      <img src={Team5} className="right-image" alt=''/>
+      <img src={Team6} className="right-image" alt=''/>
     </div>
   </div>
 )
