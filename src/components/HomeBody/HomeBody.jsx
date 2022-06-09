@@ -11,10 +11,10 @@ import Team6 from '../../img/team6.jpg'
 const HomeBody = () => (
   <div className="home-body">
     {/* Show left column images */}
-    <div className="left-images">
-      <img src={Team1} className="left-image" alt=''/>
-      <img src={Team2} className="left-image" alt=''/>
-      <img src={Team3} className="left-image" alt=''/>
+    <div className="top-images">
+      <img src={Team1} className="top-image" alt=''/>
+      <img src={Team2} className="top-image" alt=''/>
+      <img src={Team3} className="top-image" alt=''/>
     </div>
 
     {/* Show video */}
@@ -23,10 +23,10 @@ const HomeBody = () => (
     </div>
 
     {/* Show right column images */}
-    <div className="right-images">
-      <img src={Team4} className="right-image" alt=''/>
-      <img src={Team5} className="right-image" alt=''/>
-      <img src={Team6} className="right-image" alt=''/>
+    <div className="top-images">
+      <img src={Team4} className="top-image" alt=''/>
+      <img src={Team5} className="top-image" alt=''/>
+      <img src={Team6} className="top-image" alt=''/>
     </div>
   </div>
 )

@@ -10,6 +10,9 @@
 }
 
 .profile-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 20vh;
   height: 30vh;
   padding-left: 2vh;
@@ -40,7 +43,7 @@
 
 .profile-text {
   font-family: sans-serif;
-  font-size: calc(2px + 2vmin);
+  font-size: calc(2px + 3.5vmin);
 }
 
 .profile-container::after, .row::after {

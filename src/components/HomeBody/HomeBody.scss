@@ -1,28 +1,28 @@
 .home-body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   height: 80vh;
 }
 
-.left-images {
-  display: inline;
-  height: 80vh;
-  width: 8vh;
-  margin-left: 2vh;
-  margin-right: 2vh;
+.top-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 12vh;
+  width: 100vw;
 }
 
-.left-image {
-  height: 10%;
-  width: 100%;
-  margin-bottom: 2vh;
+.top-image {
+  height: 100%;
+  width: 33%;
 }
 
 .video-container {
-  margin-top: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   height: 20vh;
-  width: 80vw;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,18 +30,4 @@
 
 .video {
   width: 100%;
-}
-
-.right-images {
-  display: inline;
-  height: 80vh;
-  width: 8vh;
-  margin-left: 2vh;
-  margin-right: 2vh;
-}
-
-.right-image {
-  height: 10%;
-  width: 100%;
-  margin-bottom: 2vh;
 }
