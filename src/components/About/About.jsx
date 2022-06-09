@@ -5,7 +5,7 @@ import HomeHeader from '../HomeHeader/HomeHeader'
 import JakeCimperman1 from '../../img/jake-cimperman-1.jpg'
 import JakeCimperman2 from '../../img/jake-cimperman-2.jpg'
 import JeanieBuss1 from '../../img/jeanie-buss-1.jpg'
-import JeanieBuss2 from '../../img/jeanie-buss-2.jpg'
+import JeanieBuss2 from '../../img/jeanie-buss-2.png'
 import MaxMcCormick1 from '../../img/max-mccormick-1.jpg'
 import ChrisDriedger1 from '../../img/chris-driedger-1.jpg'
 
