@@ -9,12 +9,20 @@ import JeanieBuss2 from '../../img/jeanie-buss-2.png'
 import MaxMcCormick1 from '../../img/max-mccormick-1.jpg'
 import ChrisDriedger1 from '../../img/chris-driedger-1.jpg'
 
-function AboutText() {
+function AboutText1() {
   return `
   Pro Beach Hockey is a feature-length documentary celebrating the 1990s golden era of roller hockey in Southern California. Lead by an unforgettable cast of characters, the sport exploded from beach parking lots to packed arenas. 
-  
-  This film explores the rise and fall of the sport and it’s incredible impact on hockey’s accessibility for kids in non-traditional markets. 
+  `
+}
 
+function AboutText2() {
+  return `
+  This film explores the rise and fall of the sport and it’s incredible impact on hockey’s accessibility for kids in non-traditional markets. 
+  `
+}
+
+function AboutText3() {
+  return `
   For all inquires: jake.cimperman@gmail.com 
   `
 }
@@ -49,8 +57,14 @@ function About() {
   return (
     <div className="about">
       <HomeHeader />
+      <div className='about-text'>
+        <div>{AboutText1()}</div>
+        <br/>
+        <div>{AboutText2()}</div>
+        <br/>
+        <div>{AboutText3()}</div>
+      </div>
       <div className="profiles">
-        {AboutText()}
         <Profile image1={JakeCimperman1} image2={JakeCimperman2} name='Jake Cimperman' role='Director' text={JakeCimpermanText()}/>
         <Profile image1={JeanieBuss1} image2={JeanieBuss2} name='Jeanie Buss' role='Executive Producer' text={JeanieBussText()}/>
         <Profile image1={MaxMcCormick1} image2={ChrisDriedger1} name='Max McCormick & Chris Driedger' role='Producers' text={MaxAndChrisText()}/>

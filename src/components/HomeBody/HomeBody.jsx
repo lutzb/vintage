@@ -11,22 +11,22 @@ import Team6 from '../../img/team6.jpg'
 const HomeBody = () => (
   <div className="home-body">
     {/* Show left column images */}
-    <div className="top-images">
-      <img src={Team1} className="top-image" alt=''/>
-      <img src={Team2} className="top-image" alt=''/>
-      <img src={Team3} className="top-image" alt=''/>
+    <div className="team-images">
+      <img src={Team1} className="team-image" alt=''/>
+      <img src={Team2} className="team-image" alt=''/>
+      <img src={Team3} className="team-image" alt=''/>
     </div>
 
     {/* Show video */}
     <div className="video-container">
-      <iframe className="video" title="vimeo-player" src="https://player.vimeo.com/video/707609150?h=5178318fd7" frameBorder="0" allowFullScreen></iframe>
+      <iframe height="215" width="400" title="vimeo-player" src="https://player.vimeo.com/video/707609150?h=5178318fd7" frameBorder="0" allowFullScreen></iframe>
     </div>
 
     {/* Show right column images */}
-    <div className="top-images">
-      <img src={Team4} className="top-image" alt=''/>
-      <img src={Team5} className="top-image" alt=''/>
-      <img src={Team6} className="top-image" alt=''/>
+    <div className="team-images">
+      <img src={Team4} className="team-image" alt=''/>
+      <img src={Team5} className="team-image" alt=''/>
+      <img src={Team6} className="team-image" alt=''/>
     </div>
   </div>
 )
