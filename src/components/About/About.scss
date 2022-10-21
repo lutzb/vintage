@@ -1,21 +1,24 @@
 .about {
-
+  display: flex;
+  flex-direction: row;
 }
 
 .about-text {
   font-size: calc(10px + 2vmin);
+  background-color: rgb(182, 212, 240);
 
   @media screen and (max-width: 550px) {
-    margin-left: 8vw;
-    margin-right: 8vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
   }
   @media screen and (min-width: 550px) {
-    margin-left: 20vw;
-    margin-right: 20vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
 
 .profiles {
+  background-color: rgb(182, 212, 240);
   min-height: 40vh;
   display: flex;
   flex-direction: column;

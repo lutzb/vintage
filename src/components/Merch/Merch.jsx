@@ -1,11 +1,11 @@
 import React from 'react';
 import './Merch.scss';
-import HomeHeader from '../HomeHeader/HomeHeader'
+import NavMenu from '../NavMenu/NavMenu'
 
 function Merch() {
   return (
     <div className="Merch">
-      <HomeHeader />
+      <NavMenu />
       <p>MERCH COMING SOON!</p>
     </div>
   );

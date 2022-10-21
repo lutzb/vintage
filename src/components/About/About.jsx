@@ -1,7 +1,8 @@
 import React from 'react';
 import './About.scss';
 import Profile from './Profile/Profile'
-import HomeHeader from '../HomeHeader/HomeHeader'
+import Banner from '../Banner/Banner'
+import NavMenu from '../NavMenu/NavMenu'
 import JakeCimperman1 from '../../img/jake-cimperman-1.jpg'
 import JakeCimperman2 from '../../img/jake-cimperman-2.jpg'
 import JeanieBuss1 from '../../img/jeanie-buss-1.jpg'
@@ -55,19 +56,22 @@ function MaxAndChrisText() {
 
 function About() {
   return (
-    <div className="about">
-      <HomeHeader />
-      <div className='about-text'>
-        <div>{AboutText1()}</div>
-        <br/>
-        <div>{AboutText2()}</div>
-        <br/>
-        <div>{AboutText3()}</div>
-      </div>
-      <div className="profiles">
-        <Profile image1={JakeCimperman1} image2={JakeCimperman2} name='Jake Cimperman' role='Director' text={JakeCimpermanText()}/>
-        <Profile image1={JeanieBuss1} image2={JeanieBuss2} name='Jeanie Buss' role='Executive Producer' text={JeanieBussText()}/>
-        <Profile image1={MaxMcCormick1} image2={ChrisDriedger1} name='Max McCormick & Chris Driedger' role='Producers' text={MaxAndChrisText()}/>
+    <div>
+      <Banner />
+      <div className="about">
+        <NavMenu />
+        <div className="profiles">
+          <div className='about-text'>
+            <div>{AboutText1()}</div>
+            <br/>
+            <div>{AboutText2()}</div>
+            <br/>
+            <div>{AboutText3()}</div>
+          </div>
+          <Profile image1={JakeCimperman1} image2={JakeCimperman2} name='Jake Cimperman' role='Director' text={JakeCimpermanText()}/>
+          <Profile image1={JeanieBuss1} image2={JeanieBuss2} name='Jeanie Buss' role='Executive Producer' text={JeanieBussText()}/>
+          <Profile image1={MaxMcCormick1} image2={ChrisDriedger1} name='Max McCormick & Chris Driedger' role='Producers' text={MaxAndChrisText()}/>
+        </div>
       </div>
     </div>
   );

@@ -1,12 +1,74 @@
 import React from 'react';
 import './Teams.scss';
-import HomeHeader from '../HomeHeader/HomeHeader'
+import Profile from './Team/Team'
+import Banner from '../Banner/Banner'
+import NavMenu from '../NavMenu/NavMenu'
+import HeavyMetal from '../../img/team-heavymetal.jpg'
+import WebWarriors from '../../img/team-webwarriors.jpg'
+import Gargoyles from '../../img/team-gargoyles.jpg'
+import Salsa from '../../img/team-salsa.jpg'
+import DawgPac from '../../img/team-dawgpac.jpg'
+import Express from '../../img/team-express.jpg'
+
+function HeavyMetalText() {
+  return `
+  Team Heavy Metal is led by Rick Plester, The Rock 'N' Roll Goalie. Plester is PBH's all-time leader in wins and guitar solos. 
+
+  Despite losing in the 1999 finals, the Heavy Metal proudly wear the title of Hardest Partying Team.
+  `
+}
+
+function WebWarriorsText() {
+  return `
+  The Web Warriors are the closest thing PBH has to a dynasty, winning the championship in both 1998 and 2000.
+
+  Don’t let their name fool you, these computer wizards mean business on the court. 
+  `
+}
+
+function GargoylesText() {
+  return `
+  While the Gargoyles lacked on-court success (zero finals appearances), they featured a memorable roster of goons, actors, and even a pair of twins. Their dedicated fans painted their faces and wore leather, which seems like extremely uncomfortable beach attire.
+  `
+}
+
+function SalsaText() {
+  return `
+  Featuring one of the most iconic logos in professional sports history, the Salsa always drew big crowds. Steve Chelios, brother of NHL Hall-of-Famer Chris Chelios, led the team in penalty minutes. 
+  `
+}
+
+function DawgPacText() {
+  return `
+  After a NCAA Championship at Wisconsin, Chris Nelson took his skills to the beach and captained the Dawg Pac for three seasons. 
+
+  They have a rabid fan base, which includes movie star Cuba Gooding Jr. 
+  `
+}
+
+function ExpressText() {
+  return `
+  Despite being one of the more forgettable team names, The Express won the 1999 Championship in thrilling fashion. 
+
+  University of Alaska Anchorage legend Steve Bogeyevac led them to glory with an outstanding 19 points in 10 games. 
+  `
+}
 
 function Teams() {
   return (
-    <div className="teams">
-      <HomeHeader />
-      <p>TEAMS COMING SOON!</p>
+    <div>
+      <Banner />
+      <div className="teams">
+        <NavMenu />
+        <div className="teams-list">
+          <Profile image1={HeavyMetal} name='HEAVY METAL' text={HeavyMetalText()}/>
+          <Profile image1={WebWarriors} name='WEB WARRIORS' text={WebWarriorsText()}/>
+          <Profile image1={Gargoyles} name='GARGOYLES' text={GargoylesText()}/>
+          <Profile image1={Salsa} name='SALSA' text={SalsaText()}/>
+          <Profile image1={DawgPac} name='DAWG PAC' text={DawgPacText()}/>
+          <Profile image1={Express} name='THE EXPRESS' text={ExpressText()}/>
+        </div>
+      </div>
     </div>
   );
 }

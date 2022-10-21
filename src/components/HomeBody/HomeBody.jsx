@@ -1,12 +1,12 @@
 import React from 'react';
 import './HomeBody.scss'
 
-import Team1 from '../../img/team1.jpg'
-import Team2 from '../../img/team2.jpg'
-import Team3 from '../../img/team3.jpg'
-import Team4 from '../../img/team4.jpg'
-import Team5 from '../../img/team5.jpg'
-import Team6 from '../../img/team6.jpg'
+import Team1 from '../../img/team-dawgpac-logo.jpg'
+import Team2 from '../../img/team-express-logo.jpg'
+import Team3 from '../../img/team-gargoyles-logo.jpg'
+import Team4 from '../../img/team-heavymetal-logo.jpg'
+import Team5 from '../../img/team-salsa-logo.jpg'
+import Team6 from '../../img/team-webwarriors-logo.jpg'
 
 const HomeBody = () => (
   <div className="home-body">
