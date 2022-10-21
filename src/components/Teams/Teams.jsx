@@ -1,14 +1,20 @@
 import React from 'react';
 import './Teams.scss';
-import Profile from './Team/Team'
+import Team from './Team/Team'
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
 import HeavyMetal from '../../img/team-heavymetal.jpg'
+import HeavyMetalLogo from '../../img/team-heavymetal-logo.jpg'
 import WebWarriors from '../../img/team-webwarriors.jpg'
+import WebWarriorsLogo from '../../img/team-webwarriors-logo.jpg'
 import Gargoyles from '../../img/team-gargoyles.jpg'
+import GargoylesLogo from '../../img/team-gargoyles-logo.jpg'
 import Salsa from '../../img/team-salsa.jpg'
+import SalsaLogo from '../../img/team-salsa-logo.jpg'
 import DawgPac from '../../img/team-dawgpac.jpg'
+import DawgPacLogo from '../../img/team-dawgpac-logo.jpg'
 import Express from '../../img/team-express.jpg'
+import ExpressLogo from '../../img/team-express-logo.jpg'
 
 function HeavyMetalText() {
   return `
@@ -61,12 +67,12 @@ function Teams() {
       <div className="teams">
         <NavMenu />
         <div className="teams-list">
-          <Profile image1={HeavyMetal} name='HEAVY METAL' text={HeavyMetalText()}/>
-          <Profile image1={WebWarriors} name='WEB WARRIORS' text={WebWarriorsText()}/>
-          <Profile image1={Gargoyles} name='GARGOYLES' text={GargoylesText()}/>
-          <Profile image1={Salsa} name='SALSA' text={SalsaText()}/>
-          <Profile image1={DawgPac} name='DAWG PAC' text={DawgPacText()}/>
-          <Profile image1={Express} name='THE EXPRESS' text={ExpressText()}/>
+          <Team name='WEB WARRIORS' image={WebWarriors} logo={WebWarriorsLogo} text={WebWarriorsText()}/>
+          <Team name='GARGOYLES' image={Gargoyles} logo={GargoylesLogo} text={GargoylesText()}/>
+          <Team name='SALSA' image={Salsa} logo={SalsaLogo} text={SalsaText()}/>
+          <Team name='DAWG PAC' image={DawgPac} logo={DawgPacLogo} text={DawgPacText()}/>
+          <Team name='HEAVY METAL' image={HeavyMetal} logo={HeavyMetalLogo} text={HeavyMetalText()}/>
+          <Team name='THE EXPRESS' image={Express} logo={ExpressLogo} text={ExpressText()}/>
         </div>
       </div>
     </div>

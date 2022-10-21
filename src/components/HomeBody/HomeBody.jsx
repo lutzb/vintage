@@ -12,9 +12,9 @@ const HomeBody = () => (
   <div className="home-body">
     {/* Show top images */}
     <div className="team-images">
-      <img src={Team1} className="team-image" alt=''/>
-      <img src={Team2} className="team-image" alt=''/>
-      <img src={Team3} className="team-image" alt=''/>
+      <img src={Team1} className="team-image-logo" alt=''/>
+      <img src={Team2} className="team-image-logo" alt=''/>
+      <img src={Team3} className="team-image-logo" alt=''/>
     </div>
 
     {/* Show video */}
@@ -24,9 +24,9 @@ const HomeBody = () => (
 
     {/* Show bottom images */}
     <div className="team-images">
-      <img src={Team4} className="team-image" alt=''/>
-      <img src={Team5} className="team-image" alt=''/>
-      <img src={Team6} className="team-image" alt=''/>
+      <img src={Team4} className="team-image-logo" alt=''/>
+      <img src={Team5} className="team-image-logo" alt=''/>
+      <img src={Team6} className="team-image-logo" alt=''/>
     </div>
   </div>
 )

@@ -4,7 +4,7 @@ import NavMenu from '../NavMenu/NavMenu'
 
 function Merch() {
   return (
-    <div className="Merch">
+    <div className="merch">
       <NavMenu />
       <p>MERCH COMING SOON!</p>
     </div>

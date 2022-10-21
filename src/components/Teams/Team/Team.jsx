@@ -1,20 +1,17 @@
 import React from 'react'
 import './Team.scss'
 
-function Profile(props) {
+function Team(props) {
   return (
-    <div className="profile-card">
-      <div className="profile-images">
-        <img src={props.image1} className='profile-image' alt=''></img>
-        <img src={props.image2} className='profile-image' alt=''></img>
-      </div>
-      <div className="profile-container">
-        <span className='profile-name'>{props.name}</span>
-        <span className='profile-role'>{props.role}</span>
-        <span className='profile-text'>{props.text}</span>
-      </div>
+    <div className="team">
+        <img src={props.image} className='team-image' alt=''></img>
+        <div className="team-desc">
+          <span className='team-name'>{props.name}</span>
+          <span className='team-text'>{props.text}</span>
+        </div>
+        <img src={props.logo} className='team-logo' alt=''></img>
     </div>
   );
 }
 
-export default Profile
+export default Team
