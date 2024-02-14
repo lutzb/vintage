@@ -37,15 +37,11 @@
   }
 }
 
-/* Responsive adjustments */
+/* Mobile adjustments */
 @media screen and (max-width: 768px) {
-  .nav-menu {
-
-  }
-
   .nav-item {
     margin: 0.2rem 0;
-    font-size: 1rem; /* Smaller font size for mobile */
+    font-size: 1rem;
   }
 
   .nav-item:not(:last-child) {

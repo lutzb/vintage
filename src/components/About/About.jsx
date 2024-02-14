@@ -59,13 +59,13 @@ function About() {
     <div className="about">
       <Banner />
       <NavMenu />
-      <div className="profiles">
-        <div className='about-text'>
-          <p className='about-header'>About the Team</p>
-          <p>{AboutText1()}</p>
-          <p>{AboutText2()}</p>
-          <p>{AboutText3()}</p>
-        </div>
+
+      {/* ABOUT THINGS */}
+      <div className="about-body">
+        <p className='about-header'>About the Team</p>
+        <p className='about-text'>{AboutText1()}</p>
+        <p className='about-text'>{AboutText2()}</p>
+        <p className='about-text'>{AboutText3()}</p>
         <Profile image1={JakeCimperman1} image2={JakeCimperman2} name='Jake Cimperman' role='Director' text={JakeCimpermanText()}/>
         <Profile image1={JeanieBuss1} image2={JeanieBuss2} name='Jeanie Buss' role='Executive Producer' text={JeanieBussText()}/>
         <Profile image1={MaxMcCormick1} image2={ChrisDriedger1} name='Max McCormick & Chris Driedger' role='Producers' text={MaxAndChrisText()}/>

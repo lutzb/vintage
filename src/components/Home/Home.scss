@@ -24,7 +24,7 @@
 }
 
 .team-image-logo:not(:last-child) {
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .video-player {
@@ -34,6 +34,9 @@
 
 /* Mobile adjustments */
 @media screen and (max-width: 768px) {
+  .home-body {
+    padding-bottom: 37vh;
+  }
   .team-image-logo {
     height: 15%;
     width: 15%;
@@ -42,5 +45,9 @@
   .video-player {
     width: 100%;
     height: 25vh;
+  }
+
+  .team-image-logo:not(:last-child) {
+    margin-right: 100px;
   }
 }

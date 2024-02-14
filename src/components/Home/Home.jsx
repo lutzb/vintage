@@ -15,7 +15,7 @@ function Home() {
       <Banner />
       <NavMenu />
 
-      {/* HOME RELATED THINGS */}
+      {/* HOME THINGS */}
       <div className="home-body">
         {/* Show top images */}
         <div className="team-images">

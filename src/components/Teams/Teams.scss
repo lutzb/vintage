@@ -6,28 +6,28 @@
   background-color: #000;
 }
 
-.about-text {
-  font-size: calc(10px + 2vmin);
-  background-color: rgb(182, 212, 240);
+// .about-text {
+//   font-size: calc(10px + 2vmin);
+//   background-color: rgb(182, 212, 240);
 
-  @media screen and (max-width: 550px) {
-    padding-left: 4vw;
-    padding-right: 4vw;
-  }
-  @media screen and (min-width: 550px) {
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-}
+//   @media screen and (max-width: 550px) {
+//     padding-left: 4vw;
+//     padding-right: 4vw;
+//   }
+//   @media screen and (min-width: 550px) {
+//     padding-left: 10vw;
+//     padding-right: 10vw;
+//   }
+// }
 
-.profiles {
-  background-color: rgb(182, 212, 240);
-  min-height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-  background-color: white;
-}
+// .profiles {
+//   background-color: rgb(182, 212, 240);
+//   min-height: 40vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: black;
+//   background-color: white;
+// }
   
