@@ -9,15 +9,21 @@
   background-color: rgb(182, 212, 240);
 }
 
-.team-logo {
+.team-images {
+  flex-direction: row;
+}
+
+.team-image {
+  width: 30vh;
   height: 30vh;
-  width: 30vw;
-  padding: 2.5%;
+  padding-left: 2vh;
+  padding-bottom: 1vh
 }
 
 .team-desc {
   display: flex;
   flex-direction: column;
+  padding-bottom: 10rem;
 }
 
 .team-name {
@@ -29,13 +35,35 @@
 }
 
 .team-text {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 1.5rem;
 }
 
-.team-image {
-  width: 30vh;
-  height: 40vh;
-  padding-left: 2vh;
-  padding-bottom: 1vh
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .team-image {
+    width: 18vh;
+    height: 18vh;
+    padding-left: 2vh;
+    padding-bottom: 0.5vh
+  }
+
+  .team-name {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 2.5%;
+  }
+
+  .team-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1rem;
+  }
+
+  .team-desc {
+    padding-bottom: 7rem;
+  }
 }

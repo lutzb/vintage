@@ -63,17 +63,20 @@ function ExpressText() {
 function Teams() {
   return (
     <div className="teams">
-    <Banner />
-    <NavMenu />
-    <div className="teams-list">
-      <Team name='WEB WARRIORS' image={WebWarriors} logo={WebWarriorsLogo} text={WebWarriorsText()}/>
-      <Team name='GARGOYLES' image={Gargoyles} logo={GargoylesLogo} text={GargoylesText()}/>
-      <Team name='SALSA' image={Salsa} logo={SalsaLogo} text={SalsaText()}/>
-      <Team name='DAWG PAC' image={DawgPac} logo={DawgPacLogo} text={DawgPacText()}/>
-      <Team name='HEAVY METAL' image={HeavyMetal} logo={HeavyMetalLogo} text={HeavyMetalText()}/>
-      <Team name='THE EXPRESS' image={Express} logo={ExpressLogo} text={ExpressText()}/>
+      <Banner />
+      <NavMenu />
+
+      {/* TEAMS THINGS */}
+      <div className="teams-body">
+        <p className='teams-header'>PBH Teams</p>
+        <Team name='WEB WARRIORS' image={WebWarriors} logo={WebWarriorsLogo} text={WebWarriorsText()}/>
+        <Team name='GARGOYLES' image={Gargoyles} logo={GargoylesLogo} text={GargoylesText()}/>
+        <Team name='SALSA' image={Salsa} logo={SalsaLogo} text={SalsaText()}/>
+        <Team name='DAWG PAC' image={DawgPac} logo={DawgPacLogo} text={DawgPacText()}/>
+        <Team name='HEAVY METAL' image={HeavyMetal} logo={HeavyMetalLogo} text={HeavyMetalText()}/>
+        <Team name='THE EXPRESS' image={Express} logo={ExpressLogo} text={ExpressText()}/>
+      </div>
     </div>
-  </div>
   );
 }
 
