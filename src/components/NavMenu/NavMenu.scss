@@ -1,18 +1,50 @@
 .nav-menu {
-  margin: 0;
-  padding-top: 5vh;
-  padding-left: 3%;
-  padding-right: 3%;
-  height: 100vh;
-  width: 10vw;
   display: flex;
-  flex-direction: column; 
-  font-size: 4vh;
-  color: black;
-  background-color: #c2ecf2;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.2rem;
+  background-color: black;
+  color: #fff;
+  font-family: 'Helvetica';
 }
 
 .nav-item {
-  padding-top: 4vh;
-  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.2s ease;
+  animation: blink .5s infinite alternate;
+
+  &:hover {
+    color: #ff00ff;
+  }
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 100px;
+}
+
+/* Example blinking text animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .nav-item {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+  }
+
+  .nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
