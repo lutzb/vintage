@@ -1,25 +1,27 @@
 .nav-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  padding: 3rem;
+  padding: 0.2rem;
   background-color: black;
-  color: #fff; /* Text color */
+  color: #fff;
   font-family: 'Helvetica';
 }
 
-/* Style the navigation links */
 .nav-item {
-  margin: 1rem 0;
   text-decoration: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: color 0.2s ease;
   animation: blink .5s infinite alternate;
 
   &:hover {
-    color: #ff00ff; /* Neon pink color on hover */
+    color: #ff00ff;
   }
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 100px;
 }
 
 /* Example blinking text animation */
@@ -38,10 +40,15 @@
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
   .nav-menu {
-    padding: 0.5rem;
+
   }
 
   .nav-item {
-    font-size: 0.8rem; /* Smaller font size for mobile */
+    margin: 0.2rem 0;
+    font-size: 1rem; /* Smaller font size for mobile */
+  }
+
+  .nav-item:not(:last-child) {
+    margin-right: 50px;
   }
 }
