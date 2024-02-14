@@ -3,14 +3,16 @@ import './Home.scss';
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
 import HomeBody from '../HomeBody/HomeBody'
+import Team1 from '../../img/team-dawgpac-logo.jpg'
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Banner />
-      <div className="home">
+      <div className="home-body">
         <NavMenu />
-        <HomeBody />
+        <img src={Team1} alt=''/>
+        {/* <HomeBody className="home-video-body"/> */}
       </div>
     </div>
   );
