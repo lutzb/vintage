@@ -1,9 +1,11 @@
+@import '../../common/colors.scss';
+
 .home {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
-  background-color: #000;
+  background-color: $primary-background-color;
 }
 
 .home-body {
@@ -11,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: $primary-background-color;
   width: 100%;
 }
 

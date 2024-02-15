@@ -1,9 +1,11 @@
+@import '../../common/colors.scss';
+
 .merch {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
-  background-color: #000;
+  background-color: $primary-background-color;
 }
 
 .merch-body {
@@ -11,14 +13,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
   width: 100%;
   padding-bottom: 80vh;
 }
 
 .coming-soon-text {
-  color: white;
-  font-size: 3vh;
+  color: $secondary-text-color;
+  font-weight: bold;
+  font-size: 3.5vh;
 }
 
 

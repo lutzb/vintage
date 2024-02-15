@@ -1,3 +1,5 @@
+@import '../../../common/colors.scss';
+
 .team {
   min-height: 40vh;
   display: flex;
@@ -5,8 +7,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   padding: 50px 0 50px 0;
-  color: black;
-  background-color: rgb(182, 212, 240);
 }
 
 .team-images {
@@ -32,6 +32,7 @@
   justify-content: center;
   font-weight: bold;
   padding-bottom: 2.5%;
+  color: $thirdary-text-color;
 }
 
 .team-text {

@@ -1,9 +1,11 @@
+@import '../../common/colors.scss';
+
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
-  background-color: #000;
+  background-color: $primary-background-color;
 }
 
 .about-body {
@@ -11,8 +13,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  color: rgb(247, 6, 255);
+  background-color: $primary-background-color;
+  color: $primary-text-color;
   width: 100%;
 }
 
@@ -20,8 +22,8 @@
   font-size: 1.5rem;
   padding-left: 15%;
   padding-right: 15%;
-  background-color: black;
-  color: white;
+  background-color: $primary-background-color;
+  color: $primary-text-color;
 }
 
 .about-header {
@@ -29,6 +31,7 @@
   font-size: 4rem;
   font-weight: bold;
   text-decoration: underline;
+  color: $secondary-text-color;
 }
 
 .profiles {
@@ -38,8 +41,6 @@
   flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
-  background-color: white;
 }
 
 /* Mobile adjustments */
@@ -48,8 +49,6 @@
     font-size: 1rem;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: black;
-    color: white;
   }
 
   .about-header {

@@ -1,3 +1,5 @@
+@import '../../../common/colors.scss';
+
 .profile-card {
   min-height: 40vh;
   width: 100%;
@@ -5,8 +7,6 @@
   flex-direction: row;
   justify-content: center;
   padding: 50px 0 50px 0;
-  color: white;
-  background-color: black;
 }
 
 .profile-image {
@@ -32,14 +32,16 @@
   font-style: italic;
   font-size: calc(30px + 2vmin);
   padding-bottom: 8px;
+  color: $secondary-text-color
 }
 
 .profile-role {
   font-family: sans-serif;
   font-style: italic;
+  font-weight: bold;
   font-size: calc(5px + 3vmin);
   padding-bottom: 10px;
-  color: rgb(172, 172, 172);
+  color: $thirdary-text-color;
 }
 
 .profile-text {

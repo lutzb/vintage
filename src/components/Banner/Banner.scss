@@ -1,5 +1,7 @@
+@import '../../common/colors.scss';
+
 .banner {
-  background-color: purple;
+  background-color: $primary-background-color;
 }
 
 /* Adjust banner size for mobile */
