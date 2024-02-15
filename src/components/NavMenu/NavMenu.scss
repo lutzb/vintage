@@ -25,7 +25,7 @@
   background-color: $secondary-text-color;
   font-size: 3rem;
   transition: color 0.2s ease;
-  animation: blink .5s infinite alternate;
+  animation: blink 1s infinite alternate;
 
   &:hover {
     color: #ff00ff;
