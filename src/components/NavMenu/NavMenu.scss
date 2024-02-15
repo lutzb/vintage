@@ -1,18 +1,29 @@
 @import '../../common/colors.scss';
 
+@font-face {
+  font-family: 'Honk';
+  src: url('../../common/Honk.ttf') format('truetype');
+}
+
 .nav-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0.2rem;
   background-color: $primary-background-color;
-  font-family: 'Helvetica';
 }
 
 .nav-item {
+  font-family: 'Honk';
   text-decoration: none;
   color: $primary-text-color;
-  font-size: 2rem;
+  border-width: 8px;
+  border-style: solid;
+  border-color: $thirdary-text-color;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: $secondary-text-color;
+  font-size: 3rem;
   transition: color 0.2s ease;
   animation: blink .5s infinite alternate;
 
@@ -42,10 +53,12 @@
 @media screen and (max-width: 768px) {
   .nav-item {
     margin: 0.2rem 0;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .nav-item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 10px;
   }
 }
