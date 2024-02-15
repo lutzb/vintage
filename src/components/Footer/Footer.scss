@@ -17,26 +17,37 @@
   }
 }
 
-.nav-menu {
+.footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0.2rem;
+  justify-content: center;
   background-color: $primary-background-color;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
-.nav-item {
+.footer-pbh-logo {
+  width: 8%;
+  height: 8%;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.footer-contact-button {
   font-family: 'Honk';
-  text-decoration: none;
-  color: $primary-text-color;
+  font-size: 25px;
+  color: #fff;
+  background-color: $secondary-text-color;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  transition: background-color 0.3s;
   border-width: 8px;
   border-style: solid;
   border-color: $thirdary-text-color;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: $secondary-text-color;
-  font-size: 3rem;
-  transition: color 0.2s ease;
   animation: blink 1s infinite alternate;
 
   &:hover {
@@ -48,24 +59,22 @@
   }
 }
 
-.nav-item:not(:last-child) {
-  margin-right: 100px;
-}
-
-/* Example blinking text animation */
-
-
-/* Mobile adjustments */
+/* Adjust banner size for mobile */
 @media screen and (max-width: 768px) {
-  .nav-item {
-    margin: 0.2rem 0;
-    font-size: 1.4rem;
-    padding-left: 5px;
-    padding-right: 5px;
+  .footer {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-contact-button {
+    font-size: 20px;
     animation: none;
   }
 
-  .nav-item:not(:last-child) {
-    margin-right: 10px;
+  .footer-pbh-logo{
+    width: 18%;
+    height: 18%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

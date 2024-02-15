@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.scss'
 
-import ProBeachHockey from '../../img/pro-beach-hockey.gif'
+import ProBeachHockey from '../../img/pbh-header.gif'
 
 const Banner = () => (
   <header>

@@ -1,8 +1,10 @@
 import React from 'react';
 import './Teams.scss';
-import Team from './Team/Team'
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
+import Footer from '../Footer/Footer'
+
+import Team from './Team/Team'
 import HeavyMetal from '../../img/team-heavymetal.jpg'
 import HeavyMetalLogo from '../../img/team-heavymetal-logo.png'
 import WebWarriors from '../../img/team-webwarriors.jpg'
@@ -76,6 +78,8 @@ function Teams() {
         <Team name='HEAVY METAL' image={HeavyMetal} logo={HeavyMetalLogo} text={HeavyMetalText()}/>
         <Team name='THE EXPRESS' image={Express} logo={ExpressLogo} text={ExpressText()}/>
       </div>
+
+      <Footer />
     </div>
   );
 }

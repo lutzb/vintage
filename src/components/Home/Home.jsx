@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.scss';
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
+import Footer from '../Footer/Footer'
 import PBHPoster from '../../img/pbh-poster.jpg'
 import Team1 from '../../img/team-dawgpac-logo.png'
 import Team2 from '../../img/team-express-logo.png'
@@ -44,6 +45,8 @@ function Home() {
         <img className="home-team-image-logo" src={Team5} alt=''/>
         <img className="home-team-image-logo" src={Team6} alt=''/>
       </div>
+
+      <Footer />
     </div>
   );
 }

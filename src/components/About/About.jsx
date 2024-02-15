@@ -1,8 +1,10 @@
 import React from 'react';
 import './About.scss';
-import Profile from './Profile/Profile'
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
+import Footer from '../Footer/Footer'
+
+import Profile from './Profile/Profile'
 import JakeCimperman1 from '../../img/jake-cimperman-1.jpg'
 import JakeCimperman2 from '../../img/jake-cimperman-2.jpg'
 import JeanieBuss1 from '../../img/jeanie-buss-1.jpg'
@@ -70,6 +72,8 @@ function About() {
         <Profile image1={JeanieBuss1} image2={JeanieBuss2} name='Jeanie Buss' role='Executive Producer' text={JeanieBussText()}/>
         <Profile image1={MaxMcCormick1} image2={ChrisDriedger1} name='Max McCormick & Chris Driedger' role='Producers' text={MaxAndChrisText()}/>
       </div>
+
+      <Footer />
     </div>
   );
 }
