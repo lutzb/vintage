@@ -2,12 +2,12 @@ import React from 'react';
 import './Home.scss';
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
-import Team1 from '../../img/team-dawgpac-logo.jpg'
-import Team2 from '../../img/team-express-logo.jpg'
-import Team3 from '../../img/team-gargoyles-logo.jpg'
-import Team4 from '../../img/team-heavymetal-logo.jpg'
-import Team5 from '../../img/team-salsa-logo.jpg'
-import Team6 from '../../img/team-webwarriors-logo.jpg'
+import Team1 from '../../img/team-dawgpac-logo.png'
+import Team2 from '../../img/team-express-logo.png'
+import Team3 from '../../img/team-gargoyles-logo.png'
+import Team4 from '../../img/team-heavymetal-logo.png'
+import Team5 from '../../img/team-salsa-logo.png'
+import Team6 from '../../img/team-webwarriors-logo.png'
 
 function Home() {
   return (
@@ -19,9 +19,9 @@ function Home() {
       <div className="home-body">
         {/* Show top images */}
         <div className="team-images">
-          <img src={Team1} className="team-image-logo" alt=''/>
-          <img src={Team2} className="team-image-logo" alt=''/>
-          <img src={Team3} className="team-image-logo" alt=''/>
+          <img className="team-image-logo" src={Team1} alt=''/>
+          <img className="team-image-logo" src={Team2} alt=''/>
+          <img className="team-image-logo" src={Team3} alt=''/>
         </div>
 
         {/* Show video */}

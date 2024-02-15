@@ -25,6 +25,11 @@
   justify-content: center;
 }
 
+.team-image-logo {
+  height: 10%;
+  width: 10%;
+}
+
 .team-image-logo:not(:last-child) {
   margin-right: 150px;
 }
@@ -40,8 +45,8 @@
     padding-bottom: 37vh;
   }
   .team-image-logo {
-    height: 15%;
-    width: 15%;
+    height: 25%;
+    width: 25%;
   }
 
   .video-player {
@@ -50,6 +55,6 @@
   }
 
   .team-image-logo:not(:last-child) {
-    margin-right: 100px;
+    margin-right: 40px;
   }
 }
