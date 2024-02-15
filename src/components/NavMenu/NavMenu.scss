@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Honk';
-  src: url('../../common/Honk.ttf') format('truetype');
+  src: url('../../common/Honk-Regular-VariableFont_MORF,SHLN.woff2') format('woff2');
 }
 
 .nav-menu {
@@ -42,7 +42,7 @@
     opacity: 1;
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.6;
   }
   100% {
     opacity: 1;
