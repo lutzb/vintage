@@ -38,14 +38,6 @@
   font-size: 3rem;
   transition: color 0.2s ease;
   animation: blink 1s infinite alternate;
-
-  &:hover {
-    background-color: $primary-text-color;
-  }
-
-  &:active {
-    background-color: $primary-text-color;
-  }
 }
 
 .nav-item:not(:last-child) {
