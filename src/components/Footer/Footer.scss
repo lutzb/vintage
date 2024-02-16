@@ -12,21 +12,13 @@
   justify-content: center;
   background-color: $primary-background-color;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
-}
-
-.footer-pbh-logo {
-  width: 8%;
-  height: 8%;
-  padding-left: 130px;
-  padding-right: 130px;
 }
 
 .footer-contact-button {
   font-family: 'Honk';
   font-size: 25px;
-  color: #fff;
   background-color: $secondary-text-color;
   border: none;
   padding: 10px 10px;
@@ -37,6 +29,7 @@
   border-width: 8px;
   border-style: solid;
   border-color: $thirdary-text-color;
+  margin-right: 100px;
 
   &:hover {
     background-color: $primary-text-color;
@@ -45,6 +38,11 @@
   &:active {
     background-color: $primary-text-color;
   }
+}
+
+.footer-pbh-logo {
+  width: 6%;
+  height: 6%;
 }
 
 /* Adjust banner size for mobile */
@@ -56,12 +54,11 @@
 
   .footer-contact-button {
     font-size: 20px;
+    margin-right: 60px;
   }
 
   .footer-pbh-logo{
     width: 18%;
     height: 18%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
