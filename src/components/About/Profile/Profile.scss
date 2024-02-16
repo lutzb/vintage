@@ -4,19 +4,28 @@
   min-height: 40vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+
+.profile-images {
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 50px 0 50px 0;
 }
 
 .profile-image {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 30vh;
-  height: 40vh;
-  padding-right: 8vh;
-  padding-bottom: 1vh
+  width: 45vh;
+  height: auto;
+}
+
+.profile-image:not(:last-child) {
+  padding-right: 15vh;
 }
 
 .profile-container {
@@ -24,7 +33,8 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 50%;
+  padding-bottom: 30px;
+  width: 60%;
 }
 
 .profile-name {
@@ -57,12 +67,17 @@
 
 /* Mobile adjustments */
 @media screen and (max-width: 768px) {
+  .profile-name {
+    font-size: calc(30px + 1vmin);
+  }
+  
   .profile-image {
     width: 20vh;
     height: auto;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+  }
+
+  .profile-image:not(:last-child) {
+    padding-right: 1vh;
   }
 
   .profile-role {
@@ -71,7 +86,7 @@
 
   .profile-container {
     padding: 8px;
-    width: 50%;
+    width: 90%;
   }
 }
   
