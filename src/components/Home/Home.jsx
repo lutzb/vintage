@@ -26,8 +26,7 @@ function Home() {
           <img className="home-team-image-logo" src={Team3} alt=''/>
         </div>
 
-        {/* Show video / poster */}
-        {/* <iframe className="video-player" title="vimeo-player" src="https://player.vimeo.com/video/707609150?h=5178318fd7" frameBorder="0" allowFullScreen></iframe> */}
+        {/* Show poster */}
         <img className="home-team-poster" src={PBHPoster} alt=''/>
 
         {/* Show right images */}
