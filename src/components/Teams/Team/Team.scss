@@ -10,12 +10,14 @@
 }
 
 .team-images {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .team-image {
-  width: 30vh;
-  height: 30vh;
+  width: 35vh;
+  height: 35vh;
   padding-bottom: 0.5vh
 }
 
@@ -26,7 +28,7 @@
 .team-desc {
   display: flex;
   flex-direction: column;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
 }
 
 .team-name {
