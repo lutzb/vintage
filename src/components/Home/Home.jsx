@@ -37,6 +37,8 @@ function Home() {
           <img className="home-team-image-logo" src={Team6} alt=''/>
         </div>
       </div>
+      <p className='home-teaser-text'>Documentary premiering Spring 2024.</p>
+      <p className='home-teaser-text'>Teaser available upon request.</p>
       <div className="home-body-mobile-images">
         <img className="home-team-image-logo" src={Team1} alt=''/>
         <img className="home-team-image-logo" src={Team2} alt=''/>
