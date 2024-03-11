@@ -3,7 +3,7 @@ import './Home.scss';
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
 import Footer from '../Footer/Footer'
-import PBHPoster from '../../img/pbh-poster.jpg'
+import PBHPoster from '../../img/pbh-poster-new.jpg'
 import Team1 from '../../img/team-dawgpac-logo.png'
 import Team2 from '../../img/team-express-logo.png'
 import Team3 from '../../img/team-gargoyles-logo.png'
