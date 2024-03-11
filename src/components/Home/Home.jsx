@@ -37,7 +37,8 @@ function Home() {
         </div>
       </div>
       <p className='home-teaser-text'>Documentary premiering Spring 2024.</p>
-      <p className='home-teaser-text'>Teaser available upon request.</p>
+      <p className='home-teaser-text'>Want updates, merchandise, and exclusive content?</p>
+      <p className='home-teaser-text'>Sign up for our newsletter below!</p>
       <div className="home-body-mobile-images">
         <img className="home-team-image-logo" src={Team1} alt=''/>
         <img className="home-team-image-logo" src={Team2} alt=''/>

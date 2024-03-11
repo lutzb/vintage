@@ -8,7 +8,7 @@ const handleContactClick = () => {
 };
 
 const handleNewsletterClick = () => {
-  window.open('https://mailchi.mp/sinbinstudios/pbh-landing-page', '_blank');
+  window.open('https://mailchi.mp/probeachhockey.net/pbh-signup', '_blank');
 };
 
 const Footer = () => (
