@@ -50,9 +50,13 @@ function JeanieBussText() {
 
 function MaxAndChrisText() {
   return `
-  Max and Chris are current NHL players for the Seattle Kraken. But they’re more than a couple of exceptionally athletic dudes. 
-
-  They are natural entrepreneurs with a gift for problem solving and getting things done. Their connections throughout sports, media, and business have been an incredibly valuable asset to this production.
+  Max and Chris aren't just a couple of exceptionally athletic dudes. In addition to being current NHL players in the Seattle Kraken organization, they joined the project as producers in 2022.
+  
+  With a large network of industry contacts, Chris leads development and distribution for PBH.
+  
+  Max brings an entrepreneurial spirit to his producer role, balancing the big-picture business goals with the creative process. 
+  
+  Their connections in sports media and business have been an incredibly valuable asset to this production!
   `
 }
 
