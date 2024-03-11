@@ -17,22 +17,6 @@
 }
 
 .footer-contact-button {
-  // font-family: 'Honk';
-  // font-size: 25px;
-  // background-color: $secondary-text-color;
-  // color: $black-text-color;
-  // font-weight: bold;
-  // border: none;
-  // padding: 10px 10px;
-  // cursor: pointer;
-  // text-transform: uppercase;
-  // outline: none;
-  // transition: background-color 0.3s;
-  // border-width: 4px;
-  // border-style: solid;
-  // border-color: $thirdary-text-color;
-  // margin-right: 100px;
-
   font-family: 'Honk';
   text-decoration: none;
   color: $black-text-color;
@@ -44,6 +28,22 @@
   background-color: $secondary-text-color;
   font-size: 3rem;
   margin-right: 100px;
+  cursor: pointer;
+}
+
+.footer-newsletter-button {
+  font-family: 'Honk';
+  text-decoration: none;
+  color: $black-text-color;
+  border-width: 4px;
+  border-style: solid;
+  border-color: $thirdary-text-color;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: $secondary-text-color;
+  font-size: 2.8rem;
+  margin-left: 100px;
+  cursor: pointer;
 }
 
 .footer-pbh-logo {
@@ -64,7 +64,15 @@
     font-size: 2rem;
     padding-left: 5px;
     padding-right: 5px;
-    margin-right: 60px;
+    margin-right: 20px;
+  }
+
+  .footer-newsletter-button {
+    margin: 0.2rem 0;
+    font-size: 1.8rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
   }
 
   .footer-pbh-logo{

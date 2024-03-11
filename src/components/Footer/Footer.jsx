@@ -3,14 +3,19 @@ import './Footer.scss'
 
 import ProBeachHockey from '../../img/pbh-logo.png'
 
-const handleClick = () => {
-  window.open('mailto:jake@sinbinstudios.com ', '_blank');
+const handleContactClick = () => {
+  window.open('mailto:jake@sinbinstudios.com', '_blank');
+};
+
+const handleNewsletterClick = () => {
+  window.open('https://mailchi.mp/sinbinstudios/pbh-landing-page', '_blank');
 };
 
 const Footer = () => (
   <footer className="footer">
-    <button className='footer-contact-button' onClick={handleClick}>CONTACT</button>
+    <button className='footer-contact-button' onClick={handleContactClick}>CONTACT</button>
     <img className='footer-pbh-logo' src={ProBeachHockey} alt=''/>
+    <button className='footer-newsletter-button' onClick={handleNewsletterClick}>NEWSLETTER</button>
   </footer>
 )
 
