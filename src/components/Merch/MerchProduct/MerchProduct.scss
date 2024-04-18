@@ -1,0 +1,79 @@
+@import '../../../common/colors.scss';
+
+.team {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 50px 0 50px 0;
+}
+
+.team-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.team-image {
+  width: 35vh;
+  height: 35vh;
+  padding-bottom: 0.5vh
+}
+
+.team-image:not(:last-child) {
+  margin-right: 150px;
+}
+
+.team-desc {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
+}
+
+.team-name {
+  font-size: calc(24px + 2vmin);
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding-bottom: 0.5vh;
+  color: $thirdary-text-color;
+}
+
+.team-text {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 1.5rem;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .team-image {
+    width: 18vh;
+    height: 18vh;
+    padding-left: 2vh;
+    padding-bottom: 0.5vh
+  }
+
+  .team-image:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .team-name {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 2.5%;
+  }
+
+  .team-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1rem;
+  }
+
+  .team-desc {
+    padding-bottom: 7rem;
+  }
+}
