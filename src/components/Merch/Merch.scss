@@ -14,11 +14,22 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-bottom: 80vh;
 }
 
-.coming-soon-text {
-  color: $secondary-text-color;
+.merch-header {
+  margin: 0px;
+  font-size: 4rem;
   font-weight: bold;
-  font-size: 3.5vh;
+  text-decoration: underline;
+  color: $secondary-text-color;
+  padding-bottom: 1vh;
+}
+
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .merch-header {
+    margin: 0px;
+    font-size: 3rem;
+  }
 }
