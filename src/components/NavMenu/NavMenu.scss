@@ -38,6 +38,7 @@
   font-size: 3rem;
   transition: color 0.2s ease;
   animation: blink 1s infinite alternate;
+  cursor: pointer;
 }
 
 .nav-item:not(:last-child) {

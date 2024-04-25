@@ -29,6 +29,8 @@
   font-size: 3rem;
   margin-right: 100px;
   cursor: pointer;
+  transition: color 0.2s ease;
+  animation: blink 1s infinite alternate;
 }
 
 .footer-newsletter-button {
@@ -44,6 +46,8 @@
   font-size: 2.8rem;
   margin-left: 100px;
   cursor: pointer;
+  transition: color 0.2s ease;
+  animation: blink 1s infinite alternate;
 }
 
 .footer-pbh-logo {
