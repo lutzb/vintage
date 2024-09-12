@@ -19,7 +19,7 @@ import Footer from '../Footer/Footer'
 // const publishableKey = "pk_live_51P5WcyAWS16T0EVumVcpH5HQGZBu0QARJWih1e0enubouUlHo3p2OUaViJMGe6pKP8scouYaLaL1EXNhkU6JY0rr00KojScObc";
 
 const handleMerchButtonClick = () => {
-  window.open('https://https://probeachhockey.myshopify.com/', '_blank');
+  window.open('https://probeachhockey.myshopify.com/', '_blank');
 };
 
 function Merch() {
