@@ -36,7 +36,7 @@ function Home() {
           <img className="home-team-image-logo" src={Team6} alt=''/>
         </div>
       </div>
-      <p className='home-teaser-text'>Documentary premiering Spring 2024.</p>
+      <p className='home-teaser-text'>Documentary premiering 2024!</p>
       <p/>
       <p className='home-teaser-text'>Want updates, merchandise, and exclusive content?</p>
       <p className='home-teaser-text'>Sign up for our newsletter below!</p>
