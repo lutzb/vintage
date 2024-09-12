@@ -18,6 +18,10 @@ import HatWhite from '../../img/merch-hat-white.jpg'
 
 const publishableKey = "pk_live_51P5WcyAWS16T0EVumVcpH5HQGZBu0QARJWih1e0enubouUlHo3p2OUaViJMGe6pKP8scouYaLaL1EXNhkU6JY0rr00KojScObc";
 
+const handleMerchButtonClick = () => {
+  window.open('https://https://probeachhockey.myshopify.com/', '_blank');
+};
+
 function Merch() {
   return (
     <div className="merch">
@@ -28,6 +32,8 @@ function Merch() {
       <div className="merch-body">
         <p className='merch-header'>PBH Merch</p>
 
+        <button className='merch-button' onClick={handleMerchButtonClick}>Shop PBH Merch!</button>
+
         {/* Old merch products */}
         {/* <MerchProduct image={Koozies} buttonId="buy_btn_1P728EAWS16T0EVujPU3dRz9" publishableKey={publishableKey} desc="PBH Neon Koozies (4)" price="$14.00 + shipping" />
         <MerchProduct image={TruckerHat} buttonId="buy_btn_1P63MtAWS16T0EVuSJtgxqVR" publishableKey={publishableKey} desc="PBH Black Trucker Hat" price="$25.00 + shipping" />
@@ -35,9 +41,9 @@ function Merch() {
         <MerchProduct image={ShirtBlue} buttonId="buy_btn_1P8nbjAWS16T0EVu0CWA39Ro" publishableKey={publishableKey} desc="PBH Logo T-Shirt (Blue)" price="$28.00 + shipping" /> */}
 
         {/* New merch products (7/3/24) */}
-        <MerchProduct image={HatBlack} buttonId="buy_btn_1PVQMxAWS16T0EVuDs6110dL" publishableKey={publishableKey} desc="Violent Gentlemen x PBH Trucker Hat" price="$32.00 + shipping" />
+        {/* <MerchProduct image={HatBlack} buttonId="buy_btn_1PVQMxAWS16T0EVuDs6110dL" publishableKey={publishableKey} desc="Violent Gentlemen x PBH Trucker Hat" price="$32.00 + shipping" />
         <MerchProduct image={HatBucket} buttonId="buy_btn_1PSoDwAWS16T0EVuirzShcRH" publishableKey={publishableKey} desc="PBH Bucket Hat" price="$30.00 + shipping" />
-        <MerchProduct image={HatWhite} buttonId="buy_btn_1PSoIDAWS16T0EVuDsSoY8Hr" publishableKey={publishableKey} desc="PBH Huntington Beach Hat" price="$34.99 + shipping" />
+        <MerchProduct image={HatWhite} buttonId="buy_btn_1PSoIDAWS16T0EVuDsSoY8Hr" publishableKey={publishableKey} desc="PBH Huntington Beach Hat" price="$34.99 + shipping" /> */}
       </div>
 
       <Footer />

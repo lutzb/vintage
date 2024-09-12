@@ -1,5 +1,10 @@
 @import '../../common/colors.scss';
 
+@font-face {
+  font-family: 'Honk';
+  src: url('../../common/VT323-Regular.ttf') format('truetype');
+}
+
 .merch {
   display: flex;
   flex-direction: column;
@@ -25,11 +30,36 @@
   padding-bottom: 1vh;
 }
 
+.merch-button {
+  font-family: 'Honk';
+  text-decoration: none;
+  color: $black-text-color;
+  border-width: 4px;
+  border-style: solid;
+  border-color: $thirdary-text-color;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: $secondary-text-color;
+  font-size: 3rem;
+  margin-right: 100px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  animation: blink 1s infinite alternate;
+}
+
 
 /* Mobile adjustments */
 @media screen and (max-width: 768px) {
   .merch-header {
     margin: 0px;
     font-size: 3rem;
+  }
+
+  .footer-contact-button {
+    margin: 0.2rem 0;
+    font-size: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
   }
 }
