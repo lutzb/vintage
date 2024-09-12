@@ -3,7 +3,7 @@ import './Merch.scss';
 import Banner from '../Banner/Banner'
 import NavMenu from '../NavMenu/NavMenu'
 import Footer from '../Footer/Footer'
-import MerchProduct from './MerchProduct/MerchProduct'
+// import MerchProduct from './MerchProduct/MerchProduct'
 
 // Old merch products
 // import Koozies from '../../img/merch-koozies.png'
@@ -12,11 +12,11 @@ import MerchProduct from './MerchProduct/MerchProduct'
 // import ShirtBlue from '../../img/merch-shirt-blue.png'
 
 // New merch products (7/3/24)
-import HatBlack from '../../img/merch-hat-black.jpg'
-import HatBucket from '../../img/merch-hat-bucket.jpg'
-import HatWhite from '../../img/merch-hat-white.jpg'
+// import HatBlack from '../../img/merch-hat-black.jpg'
+// import HatBucket from '../../img/merch-hat-bucket.jpg'
+// import HatWhite from '../../img/merch-hat-white.jpg'
 
-const publishableKey = "pk_live_51P5WcyAWS16T0EVumVcpH5HQGZBu0QARJWih1e0enubouUlHo3p2OUaViJMGe6pKP8scouYaLaL1EXNhkU6JY0rr00KojScObc";
+// const publishableKey = "pk_live_51P5WcyAWS16T0EVumVcpH5HQGZBu0QARJWih1e0enubouUlHo3p2OUaViJMGe6pKP8scouYaLaL1EXNhkU6JY0rr00KojScObc";
 
 const handleMerchButtonClick = () => {
   window.open('https://https://probeachhockey.myshopify.com/', '_blank');
