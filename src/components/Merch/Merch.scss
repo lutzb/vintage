@@ -17,8 +17,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
+  min-height: 65vh;
 }
 
 .merch-header {
@@ -41,7 +41,6 @@
   padding-right: 15px;
   background-color: $secondary-text-color;
   font-size: 3rem;
-  margin-right: 100px;
   cursor: pointer;
   transition: color 0.2s ease;
   animation: blink 1s infinite alternate;
